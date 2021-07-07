@@ -1,0 +1,34 @@
+package FrameworkAssignment.WeatherReportingComparator;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.Properties;
+
+public class Base {
+	
+	public void initializeDriver() throws IOException {
+	
+	Properties prop = new Properties();
+	FileInputStream fis = new FileInputStream("C:\\Users\\nisha\\Documents\\WeatherReportingComparator\\WeatherReportingComparator\\src\\main\\java\\FrameworkAssignment\\WeatherReportingComparator\\Data.properties");
+	prop.load(fis);
+	String browserName = prop.getProperty("browser");
+	
+	if (browserName == "chrome") 
+	{
+		
+	}
+	else if (browserName == "firefox")
+	{
+		
+	}
+	else if (browserName == "IE")
+	{
+		
+	}
+	
+	}
+
+	
+
+}

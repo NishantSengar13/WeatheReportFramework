@@ -1,0 +1,6 @@
+
+public class TestCase001 {
+	
+	Base baseObj = new Base();
+
+}

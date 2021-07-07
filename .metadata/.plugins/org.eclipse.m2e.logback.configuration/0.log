@@ -1,0 +1,184 @@
+2021-07-06 18:38:14,628 [Worker-6] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-07-06 20:10:19,525 [Worker-49] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' C:\Users\nisha\Documents\WeatherReportingComparator\WeatherReportingComparator\pom.xml
+2021-07-06 20:10:26,189 [Worker-49] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: FrameworkAssignment:WeatherReportingComparator:0.0.1-SNAPSHOT @ C:\Users\nisha\Documents\WeatherReportingComparator\WeatherReportingComparator\pom.xml.
+2021-07-06 20:10:28,395 [Worker-49] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /WeatherReportingComparator/src/main/java
+2021-07-06 20:10:28,403 [Worker-49] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /WeatherReportingComparator/src/test/java
+2021-07-06 20:10:29,620 [Worker-49] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 10 sec
+2021-07-06 20:10:31,080 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-06 20:10:31,080 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\nisha\Documents\WeatherReportingComparator\WeatherReportingComparator\src\main\resources
+2021-07-06 20:10:31,083 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-06 20:10:31,084 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\nisha\Documents\WeatherReportingComparator\WeatherReportingComparator\src\test\resources
+2021-07-06 20:21:56,589 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2021-07-06 20:22:15,586 [Worker-49] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\nisha\Documents\WeatherReportingComparator\WeatherReportingComparator
+2021-07-06 20:22:15,587 [Worker-49] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B 
+2021-07-06 20:45:32,375 [Worker-49] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: FrameworkAssignment:WeatherReportingComparator:0.0.1-SNAPSHOT @ C:\Users\nisha\Documents\WeatherReportingComparator\WeatherReportingComparator\pom.xml.
+2021-07-06 20:45:34,176 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-06 20:45:34,176 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\nisha\Documents\WeatherReportingComparator\WeatherReportingComparator\src\main\resources
+2021-07-06 20:45:34,179 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-06 20:45:34,179 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\nisha\Documents\WeatherReportingComparator\WeatherReportingComparator\src\test\resources
+2021-07-06 20:45:35,654 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-06 20:45:35,655 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\nisha\Documents\WeatherReportingComparator\WeatherReportingComparator\src\main\resources
+2021-07-06 20:45:35,656 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-06 20:45:35,657 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\nisha\Documents\WeatherReportingComparator\WeatherReportingComparator\src\test\resources
+2021-07-06 20:46:25,050 [Worker-49] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: FrameworkAssignment:WeatherReportingComparator:0.0.1-SNAPSHOT @ C:\Users\nisha\Documents\WeatherReportingComparator\WeatherReportingComparator\pom.xml.
+2021-07-06 20:46:25,485 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-06 20:46:25,486 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\nisha\Documents\WeatherReportingComparator\WeatherReportingComparator\src\main\resources
+2021-07-06 20:46:25,489 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-06 20:46:25,490 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\nisha\Documents\WeatherReportingComparator\WeatherReportingComparator\src\test\resources
+2021-07-06 20:46:26,960 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-06 20:46:26,960 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\nisha\Documents\WeatherReportingComparator\WeatherReportingComparator\src\main\resources
+2021-07-06 20:46:26,962 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-06 20:46:26,963 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\nisha\Documents\WeatherReportingComparator\WeatherReportingComparator\src\test\resources
+2021-07-06 20:46:53,297 [Worker-56] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: FrameworkAssignment:WeatherReportingComparator:0.0.1-SNAPSHOT @ C:\Users\nisha\Documents\WeatherReportingComparator\WeatherReportingComparator\pom.xml.
+2021-07-06 20:46:53,570 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-06 20:46:53,571 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\nisha\Documents\WeatherReportingComparator\WeatherReportingComparator\src\main\resources
+2021-07-06 20:46:53,573 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-06 20:46:53,573 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\nisha\Documents\WeatherReportingComparator\WeatherReportingComparator\src\test\resources
+2021-07-06 20:55:40,204 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-06 20:55:40,205 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\nisha\Documents\WeatherReportingComparator\WeatherReportingComparator\src\main\resources
+2021-07-06 20:55:40,206 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-06 20:55:40,207 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\nisha\Documents\WeatherReportingComparator\WeatherReportingComparator\src\test\resources
+2021-07-06 20:55:41,287 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-06 20:55:41,287 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\nisha\Documents\WeatherReportingComparator\WeatherReportingComparator\src\main\resources
+2021-07-06 20:55:41,289 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-06 20:55:41,289 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\nisha\Documents\WeatherReportingComparator\WeatherReportingComparator\src\test\resources
+2021-07-06 20:56:11,000 [Worker-55] WARN  o.e.r.models.ModelRepository - Failed to download org.eclipse.recommenders:index::zip:0.0.0
+org.eclipse.aether.resolution.ArtifactResolutionException: Could not find artifact org.eclipse.recommenders:index:zip:0.0.0-SNAPSHOT in models (http://download.eclipse.org/recommenders/models/oxygen/)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:453) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:255) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:232) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:303) ~[na:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolveInternal(ModelRepository.java:193) [org.eclipse.recommenders.models_2.5.2.v20180401-1226.jar:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolve(ModelRepository.java:172) [org.eclipse.recommenders.models_2.5.2.v20180401-1226.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.EclipseModelRepository.resolve(EclipseModelRepository.java:168) [org.eclipse.recommenders.models.rcp_2.5.2.v20180401-1226.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.DownloadModelArchiveJob.run(DownloadModelArchiveJob.java:76) [org.eclipse.recommenders.models.rcp_2.5.2.v20180401-1226.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56) [org.eclipse.core.jobs_3.9.3.v20180115-1757.jar:na]
+Caused by: org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find artifact org.eclipse.recommenders:index:zip:0.0.0-SNAPSHOT in models (http://download.eclipse.org/recommenders/models/oxygen/)
+	at org.eclipse.aether.connector.basic.ArtifactTransportListener.transferFailed(ArtifactTransportListener.java:48) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run(BasicRepositoryConnector.java:364) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.util.concurrency.RunnableErrorForwarder$1.run(RunnableErrorForwarder.java:76) ~[na:na]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$DirectExecutor.execute(BasicRepositoryConnector.java:590) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector.get(BasicRepositoryConnector.java:258) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:529) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:430) ~[na:na]
+	... 8 common frames omitted
+2021-07-06 21:00:25,728 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-06 21:00:25,728 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\nisha\Documents\WeatherReportingComparator\WeatherReportingComparator\src\main\resources
+2021-07-06 21:00:25,729 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-06 21:00:25,730 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\nisha\Documents\WeatherReportingComparator\WeatherReportingComparator\src\test\resources
+2021-07-06 21:01:28,094 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-06 21:01:28,095 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\nisha\Documents\WeatherReportingComparator\WeatherReportingComparator\src\main\resources
+2021-07-06 21:01:28,096 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-06 21:01:28,096 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\nisha\Documents\WeatherReportingComparator\WeatherReportingComparator\src\test\resources
+2021-07-06 21:02:31,174 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-06 21:02:31,174 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\nisha\Documents\WeatherReportingComparator\WeatherReportingComparator\src\main\resources
+2021-07-06 21:02:31,175 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-06 21:02:31,176 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\nisha\Documents\WeatherReportingComparator\WeatherReportingComparator\src\test\resources
+2021-07-06 21:12:42,071 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-06 21:12:42,072 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\nisha\Documents\WeatherReportingComparator\WeatherReportingComparator\src\main\resources
+2021-07-06 21:12:42,073 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-06 21:12:42,073 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\nisha\Documents\WeatherReportingComparator\WeatherReportingComparator\src\test\resources
+2021-07-06 21:19:21,376 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-06 21:19:21,376 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\nisha\Documents\WeatherReportingComparator\WeatherReportingComparator\src\main\resources
+2021-07-06 21:19:21,379 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-06 21:19:21,380 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\nisha\Documents\WeatherReportingComparator\WeatherReportingComparator\src\test\resources
+2021-07-06 21:20:00,175 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-06 21:20:00,176 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\nisha\Documents\WeatherReportingComparator\WeatherReportingComparator\src\main\resources
+2021-07-06 21:20:00,177 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-06 21:20:00,177 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\nisha\Documents\WeatherReportingComparator\WeatherReportingComparator\src\test\resources
+2021-07-06 21:22:56,296 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-06 21:22:56,296 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\nisha\Documents\WeatherReportingComparator\WeatherReportingComparator\src\main\resources
+2021-07-06 21:22:56,297 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-06 21:22:56,297 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\nisha\Documents\WeatherReportingComparator\WeatherReportingComparator\src\test\resources
+2021-07-06 21:23:01,582 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-06 21:23:01,582 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\nisha\Documents\WeatherReportingComparator\WeatherReportingComparator\src\main\resources
+2021-07-06 21:23:01,585 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-06 21:23:01,585 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\nisha\Documents\WeatherReportingComparator\WeatherReportingComparator\src\test\resources
+2021-07-06 21:23:29,737 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-06 21:23:29,737 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\nisha\Documents\WeatherReportingComparator\WeatherReportingComparator\src\main\resources
+2021-07-06 21:23:29,738 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-06 21:23:29,739 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\nisha\Documents\WeatherReportingComparator\WeatherReportingComparator\src\test\resources
+2021-07-06 21:33:19,839 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-06 21:33:19,839 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\nisha\Documents\WeatherReportingComparator\WeatherReportingComparator\src\main\resources
+2021-07-06 21:33:19,840 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-06 21:33:19,841 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\nisha\Documents\WeatherReportingComparator\WeatherReportingComparator\src\test\resources
+2021-07-06 21:36:18,182 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-06 21:36:18,183 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\nisha\Documents\WeatherReportingComparator\WeatherReportingComparator\src\main\resources
+2021-07-06 21:36:18,184 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-06 21:36:18,185 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\nisha\Documents\WeatherReportingComparator\WeatherReportingComparator\src\test\resources
+2021-07-06 21:48:58,425 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-06 21:48:58,425 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\nisha\Documents\WeatherReportingComparator\WeatherReportingComparator\src\main\resources
+2021-07-06 21:48:58,427 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-06 21:48:58,427 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\nisha\Documents\WeatherReportingComparator\WeatherReportingComparator\src\test\resources
+2021-07-06 21:51:59,164 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-06 21:51:59,165 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\nisha\Documents\WeatherReportingComparator\WeatherReportingComparator\src\main\resources
+2021-07-06 21:51:59,167 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-06 21:51:59,168 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\nisha\Documents\WeatherReportingComparator\WeatherReportingComparator\src\test\resources
+2021-07-06 22:07:36,349 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-06 22:07:36,350 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\nisha\Documents\WeatherReportingComparator\WeatherReportingComparator\src\main\resources
+2021-07-06 22:07:36,351 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-06 22:07:36,351 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\nisha\Documents\WeatherReportingComparator\WeatherReportingComparator\src\test\resources
+2021-07-06 22:12:55,219 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-06 22:12:55,220 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\nisha\Documents\WeatherReportingComparator\WeatherReportingComparator\src\main\resources
+2021-07-06 22:12:55,221 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-06 22:12:55,221 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\nisha\Documents\WeatherReportingComparator\WeatherReportingComparator\src\test\resources
+2021-07-06 22:13:03,963 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-06 22:13:03,963 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\nisha\Documents\WeatherReportingComparator\WeatherReportingComparator\src\main\resources
+2021-07-06 22:13:03,964 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-06 22:13:03,965 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\nisha\Documents\WeatherReportingComparator\WeatherReportingComparator\src\test\resources
+2021-07-06 22:13:55,241 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-06 22:13:55,241 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\nisha\Documents\WeatherReportingComparator\WeatherReportingComparator\src\main\resources
+2021-07-06 22:13:55,243 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-06 22:13:55,243 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\nisha\Documents\WeatherReportingComparator\WeatherReportingComparator\src\test\resources
+2021-07-06 22:15:47,748 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-06 22:15:47,749 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\nisha\Documents\WeatherReportingComparator\WeatherReportingComparator\src\main\resources
+2021-07-06 22:15:47,750 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-06 22:15:47,750 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\nisha\Documents\WeatherReportingComparator\WeatherReportingComparator\src\test\resources
+2021-07-06 22:16:46,233 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-06 22:16:46,233 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\nisha\Documents\WeatherReportingComparator\WeatherReportingComparator\src\main\resources
+2021-07-06 22:16:46,234 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-06 22:16:46,235 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\nisha\Documents\WeatherReportingComparator\WeatherReportingComparator\src\test\resources
+2021-07-06 22:23:02,488 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-06 22:23:02,488 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\nisha\Documents\WeatherReportingComparator\WeatherReportingComparator\src\main\resources
+2021-07-06 22:23:02,489 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-06 22:23:02,489 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\nisha\Documents\WeatherReportingComparator\WeatherReportingComparator\src\test\resources
+2021-07-06 22:24:59,224 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-06 22:24:59,224 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\nisha\Documents\WeatherReportingComparator\WeatherReportingComparator\src\main\resources
+2021-07-06 22:24:59,225 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-06 22:24:59,225 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\nisha\Documents\WeatherReportingComparator\WeatherReportingComparator\src\test\resources
+2021-07-06 22:27:29,944 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-06 22:27:29,944 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\nisha\Documents\WeatherReportingComparator\WeatherReportingComparator\src\main\resources
+2021-07-06 22:27:29,945 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-06 22:27:29,945 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\nisha\Documents\WeatherReportingComparator\WeatherReportingComparator\src\test\resources
+2021-07-06 22:28:33,587 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-06 22:28:33,587 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\nisha\Documents\WeatherReportingComparator\WeatherReportingComparator\src\main\resources
+2021-07-06 22:28:33,588 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-06 22:28:33,588 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\nisha\Documents\WeatherReportingComparator\WeatherReportingComparator\src\test\resources
+2021-07-06 22:28:41,628 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-06 22:28:41,628 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\nisha\Documents\WeatherReportingComparator\WeatherReportingComparator\src\main\resources
+2021-07-06 22:28:41,630 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-06 22:28:41,630 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\nisha\Documents\WeatherReportingComparator\WeatherReportingComparator\src\test\resources
+2021-07-06 22:41:38,139 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-06 22:41:38,139 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\nisha\Documents\WeatherReportingComparator\WeatherReportingComparator\src\main\resources
+2021-07-06 22:41:38,140 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-06 22:41:38,141 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\nisha\Documents\WeatherReportingComparator\WeatherReportingComparator\src\test\resources
+2021-07-06 22:43:04,920 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-06 22:43:04,921 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\nisha\Documents\WeatherReportingComparator\WeatherReportingComparator\src\main\resources
+2021-07-06 22:43:04,922 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-06 22:43:04,922 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\nisha\Documents\WeatherReportingComparator\WeatherReportingComparator\src\test\resources
+2021-07-06 22:44:27,274 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-06 22:44:27,274 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\nisha\Documents\WeatherReportingComparator\WeatherReportingComparator\src\main\resources
+2021-07-06 22:44:27,275 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-06 22:44:27,276 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\nisha\Documents\WeatherReportingComparator\WeatherReportingComparator\src\test\resources
+2021-07-06 22:52:34,147 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-06 22:52:34,147 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\nisha\Documents\WeatherReportingComparator\WeatherReportingComparator\src\main\resources
+2021-07-06 22:52:34,148 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-06 22:52:34,149 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\nisha\Documents\WeatherReportingComparator\WeatherReportingComparator\src\test\resources
+2021-07-06 22:54:38,224 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-06 22:54:38,224 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\nisha\Documents\WeatherReportingComparator\WeatherReportingComparator\src\main\resources
+2021-07-06 22:54:38,225 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-06 22:54:38,226 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\nisha\Documents\WeatherReportingComparator\WeatherReportingComparator\src\test\resources
+2021-07-06 22:54:46,125 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-06 22:54:46,126 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\nisha\Documents\WeatherReportingComparator\WeatherReportingComparator\src\main\resources
+2021-07-06 22:54:46,127 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-06 22:54:46,127 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\nisha\Documents\WeatherReportingComparator\WeatherReportingComparator\src\test\resources

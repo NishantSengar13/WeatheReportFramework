@@ -1,0 +1,33 @@
+import java.io.IOException;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.Test;
+
+import FrameworkAssignment.WeatherReportingComparator.Base;
+import WebPages.HomePage;
+
+public class TestCase001 extends Base{
+	
+	@BeforeTest
+	public void Before_Test()
+	{
+		Base baseObj = new Base();
+		WebDriver driver = baseObj.initializeDriver();
+		
+		HomePage homePage = PageFactory.initElements(driver, HomePage.class);
+	}
+	
+	@Test
+	public void EnterSearchBar() throws IOException
+	{
+	
+	
+	homePage.EnterCity("Ahmedabad", "Gujarat", "India");
+	
+	}
+	
+	
+	
+
+}

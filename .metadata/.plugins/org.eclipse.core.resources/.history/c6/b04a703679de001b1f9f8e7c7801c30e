@@ -1,0 +1,22 @@
+package WebPages;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.FindBys;
+
+public class HomePage {
+	
+	
+		@FindBy(name = "query")
+		WebElement searchBox;
+		
+		@FindBy()
+		
+		public void EnterCity(String city, String state, String Country)
+		{
+			searchBox.sendKeys(city+","+state+","+country);
+		}
+		
+		
+
+}

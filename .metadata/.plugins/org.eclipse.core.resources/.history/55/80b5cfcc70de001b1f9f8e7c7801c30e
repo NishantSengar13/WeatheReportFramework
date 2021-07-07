@@ -1,0 +1,15 @@
+package FrameworkAssignment.WeatherReportingComparator;
+
+import java.io.FileInputStream;
+import java.util.Properties;
+
+public class Base {
+	
+	Properties prop = new Properties();
+	FileInputStream fis = new FileInputStream("C:\\Users\\nisha\\Documents\\WeatherReportingComparator\\WeatherReportingComparator\\src\\main\\java\\FrameworkAssignment\\WeatherReportingComparator\\Data.properties");
+	
+	pro
+
+	}
+
+}
