@@ -6,7 +6,8 @@
       <class name="TestCase001">
         <methods>
           <include name="Before_Test"/>
-          <include name="EnterSearchBar"/>
+          <include name="baseUrl"/>
+          <include name="GetWeatherDetails"/>
         </methods>
       </class> <!-- TestCase001 -->
     </classes>

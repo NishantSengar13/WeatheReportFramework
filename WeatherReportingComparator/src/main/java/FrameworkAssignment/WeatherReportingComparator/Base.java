@@ -8,8 +8,15 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Listeners;
 
-public class Base {
+import io.restassured.RestAssured;
+import utils.ExtentReportListners;
+import utils.FileandEnv;
+
+@Listeners(ExtentReportListners.class)
+public class Base extends ExtentReportListners {
 
 	public WebDriver driver;
 
@@ -39,5 +46,10 @@ public class Base {
 		return driver;
 	}
 	
+	@BeforeClass
+public void baseUrl() {
+		
+		RestAssured.baseURI = FileandEnv.envAndFile().get("ServerUrl");
+	}
 	
 }

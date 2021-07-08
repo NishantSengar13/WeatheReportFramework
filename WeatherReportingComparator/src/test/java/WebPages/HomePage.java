@@ -23,11 +23,11 @@ public class HomePage {
 
 
 
-		public WeatherForecast EnterCity(String city, String state, String country)
+		public WeatherForecastPage EnterCity(String city, String state, String country)
 		{
 			searchBox.sendKeys(city+", "+state+", "+country);
 			searchBox.sendKeys(Keys.ENTER);
-			return (new WeatherForecast(driver));
+			return (new WeatherForecastPage(driver));
 			
 		}
 		

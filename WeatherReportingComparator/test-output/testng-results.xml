@@ -2,19 +2,23 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="9371" started-at="2021-07-07T10:39:12Z" finished-at="2021-07-07T10:39:22Z">
+  <suite name="Default suite" duration-ms="16996" started-at="2021-07-08T15:38:17Z" finished-at="2021-07-08T15:38:34Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="9371" started-at="2021-07-07T10:39:12Z" finished-at="2021-07-07T10:39:22Z">
+    <test name="Default test" duration-ms="16996" started-at="2021-07-08T15:38:17Z" finished-at="2021-07-08T15:38:34Z">
       <class name="TestCase001">
-        <test-method status="PASS" signature="Before_Test()[pri:0, instance:TestCase001@1d057a39]" name="Before_Test" is-config="true" duration-ms="6897" started-at="2021-07-07T10:39:12Z" finished-at="2021-07-07T10:39:19Z">
+        <test-method status="PASS" signature="Before_Test()[pri:0, instance:TestCase001@13805618]" name="Before_Test" is-config="true" duration-ms="6595" started-at="2021-07-08T15:38:17Z" finished-at="2021-07-08T15:38:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Before_Test -->
-        <test-method status="PASS" signature="EnterSearchBar()[pri:0, instance:TestCase001@1d057a39]" name="EnterSearchBar" duration-ms="2452" started-at="2021-07-07T10:39:19Z" finished-at="2021-07-07T10:39:22Z">
+        <test-method status="PASS" signature="baseUrl()[pri:0, instance:TestCase001@13805618]" name="baseUrl" is-config="true" duration-ms="689" started-at="2021-07-08T15:38:23Z" finished-at="2021-07-08T15:38:24Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- EnterSearchBar -->
+        </test-method> <!-- baseUrl -->
+        <test-method status="PASS" signature="GetWeatherDetails()[pri:0, instance:TestCase001@13805618]" name="GetWeatherDetails" duration-ms="9484" started-at="2021-07-08T15:38:24Z" finished-at="2021-07-08T15:38:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetWeatherDetails -->
       </class> <!-- TestCase001 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
