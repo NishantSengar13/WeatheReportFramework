@@ -5,6 +5,7 @@
     <classes>
       <class name="TestCase001">
         <methods>
+          <include name="Before_Test"/>
           <include name="EnterSearchBar"/>
         </methods>
       </class> <!-- TestCase001 -->

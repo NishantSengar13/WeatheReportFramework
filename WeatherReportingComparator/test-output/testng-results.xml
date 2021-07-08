@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="15249" started-at="2021-07-06T17:24:57Z" finished-at="2021-07-06T17:25:12Z">
+  <suite name="Default suite" duration-ms="9371" started-at="2021-07-07T10:39:12Z" finished-at="2021-07-07T10:39:22Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="15249" started-at="2021-07-06T17:24:57Z" finished-at="2021-07-06T17:25:12Z">
+    <test name="Default test" duration-ms="9371" started-at="2021-07-07T10:39:12Z" finished-at="2021-07-07T10:39:22Z">
       <class name="TestCase001">
-        <test-method status="PASS" signature="Before_Test()[pri:0, instance:TestCase001@1d057a39]" name="Before_Test" is-config="true" duration-ms="14979" started-at="2021-07-06T17:24:57Z" finished-at="2021-07-06T17:25:11Z">
+        <test-method status="PASS" signature="Before_Test()[pri:0, instance:TestCase001@1d057a39]" name="Before_Test" is-config="true" duration-ms="6897" started-at="2021-07-07T10:39:12Z" finished-at="2021-07-07T10:39:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Before_Test -->
-        <test-method status="PASS" signature="EnterSearchBar()[pri:0, instance:TestCase001@1d057a39]" name="EnterSearchBar" duration-ms="241" started-at="2021-07-06T17:25:12Z" finished-at="2021-07-06T17:25:12Z">
+        <test-method status="PASS" signature="EnterSearchBar()[pri:0, instance:TestCase001@1d057a39]" name="EnterSearchBar" duration-ms="2452" started-at="2021-07-07T10:39:19Z" finished-at="2021-07-07T10:39:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EnterSearchBar -->

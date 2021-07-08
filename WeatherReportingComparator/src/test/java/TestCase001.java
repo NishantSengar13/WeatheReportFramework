@@ -1,12 +1,9 @@
 import java.io.IOException;
-
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-
 import FrameworkAssignment.WeatherReportingComparator.Base;
 import WebPages.HomePage;
+import WebPages.WeatherForecast;
 
 public class TestCase001 extends Base{
 	
@@ -16,19 +13,17 @@ public class TestCase001 extends Base{
 		
 		driver = initializeDriver();
 		
-		
 	}
 	
 	@Test
-	public void EnterSearchBar()
+	public void AccuWeather()
 	{
 	
-	HomePage homePage = PageFactory.initElements(driver, HomePage.class);
-	homePage.EnterCity("Ahmedabad", "Gujarat", "India");
+	HomePage hp = new HomePage(driver);
+	WeatherForecast wf = hp.EnterCity("Ahmedabad", "Gujarat", "India");
+	wf.clickMoreDetails();
 	
 	}
 	
 	
-	
-
 }
