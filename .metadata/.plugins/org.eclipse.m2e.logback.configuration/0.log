@@ -328,3 +328,4 @@ Caused by: org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find
 2021-07-08 09:27:37,083 [Worker-159] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2021-07-08 09:27:37,083 [Worker-159] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\nisha\Documents\WeatherReportingComparator\WeatherReportingComparator\src\main\resources
 2021-07-08 09:27:37,085 [Worker-159] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-08 09:27:37,085 [Worker-159] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\nisha\Documents\WeatherReportingComparator\WeatherReportingComparator\src\test\resources
