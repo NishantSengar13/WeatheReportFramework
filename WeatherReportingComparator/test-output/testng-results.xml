@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="16996" started-at="2021-07-08T15:38:17Z" finished-at="2021-07-08T15:38:34Z">
+  <suite name="Default suite" duration-ms="19151" started-at="2021-07-09T04:42:12Z" finished-at="2021-07-09T04:42:31Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="16996" started-at="2021-07-08T15:38:17Z" finished-at="2021-07-08T15:38:34Z">
+    <test name="Default test" duration-ms="19151" started-at="2021-07-09T04:42:12Z" finished-at="2021-07-09T04:42:31Z">
       <class name="TestCase001">
-        <test-method status="PASS" signature="Before_Test()[pri:0, instance:TestCase001@13805618]" name="Before_Test" is-config="true" duration-ms="6595" started-at="2021-07-08T15:38:17Z" finished-at="2021-07-08T15:38:23Z">
+        <test-method status="PASS" signature="Before_Test()[pri:0, instance:TestCase001@13805618]" name="Before_Test" is-config="true" duration-ms="8598" started-at="2021-07-09T04:42:12Z" finished-at="2021-07-09T04:42:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Before_Test -->
-        <test-method status="PASS" signature="baseUrl()[pri:0, instance:TestCase001@13805618]" name="baseUrl" is-config="true" duration-ms="689" started-at="2021-07-08T15:38:23Z" finished-at="2021-07-08T15:38:24Z">
+        <test-method status="PASS" signature="baseUrl()[pri:0, instance:TestCase001@13805618]" name="baseUrl" is-config="true" duration-ms="781" started-at="2021-07-09T04:42:20Z" finished-at="2021-07-09T04:42:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- baseUrl -->
-        <test-method status="PASS" signature="GetWeatherDetails()[pri:0, instance:TestCase001@13805618]" name="GetWeatherDetails" duration-ms="9484" started-at="2021-07-08T15:38:24Z" finished-at="2021-07-08T15:38:34Z">
+        <test-method status="PASS" signature="GetWeatherDetails()[pri:0, instance:TestCase001@13805618]" name="GetWeatherDetails" duration-ms="9530" started-at="2021-07-09T04:42:21Z" finished-at="2021-07-09T04:42:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GetWeatherDetails -->
