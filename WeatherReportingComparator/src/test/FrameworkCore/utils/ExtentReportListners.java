@@ -1,9 +1,7 @@
 package utils;
 
 import java.io.File;
-import java.text.SimpleDateFormat;
-import java.util.Date;
-
+import java.io.IOException;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
@@ -49,10 +47,9 @@ public class ExtentReportListners implements ITestListener{
 
 	public void onTestStart(ITestResult result) {
 
-		test = reports.startTest(result.getMethod().getMethodName());
+		
 		test.log(LogStatus.INFO, result.getMethod().getMethodName());
-		System.out.println(result.getTestClass().getTestName());
-		System.out.println(result.getMethod().getMethodName());
+
 	}
 
 	public void onTestSuccess(ITestResult result) {
@@ -62,6 +59,19 @@ public class ExtentReportListners implements ITestListener{
 
 	public void onTestFailure(ITestResult result) {
 		test.log(LogStatus.FAIL, "Test is fail");
+		
+		//ITestContext context = result.getTestContext();
+		// WebDriver driver = (WebDriver)context.getAttribute("driver");
+		 String screenshotPath;
+		try {
+			screenshotPath = ScreenshotsUtility.getScreenshot("Nishant");
+			test.addScreenCapture(screenshotPath);
+			
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
 
 	}
 

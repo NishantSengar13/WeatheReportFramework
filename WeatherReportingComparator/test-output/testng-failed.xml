@@ -7,6 +7,7 @@
         <methods>
           <include name="Before_Test"/>
           <include name="baseUrl"/>
+          <include name="After_Test"/>
           <include name="GetWeatherDetails"/>
         </methods>
       </class> <!-- TestCase001 -->

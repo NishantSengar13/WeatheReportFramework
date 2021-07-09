@@ -1,4 +1,4 @@
-package FrameworkAssignment.WeatherReportingComparator;
+package TestCases;
 
 import java.util.concurrent.TimeUnit;
 
@@ -15,7 +15,7 @@ import utils.FileandEnv;
 @Listeners(ExtentReportListners.class)
 public class Base extends ExtentReportListners {
 
-	public WebDriver driver;
+	public static WebDriver driver;
 
 	public WebDriver initializeDriver() {
 		
