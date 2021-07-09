@@ -1,8 +1,5 @@
 package FrameworkAssignment.WeatherReportingComparator;
 
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
@@ -20,17 +17,14 @@ public class Base extends ExtentReportListners {
 
 	public WebDriver driver;
 
-	public WebDriver initializeDriver() throws IOException {
-		String UserDir = System.getProperty("user.dir");
-		Properties prop = new Properties();
-		FileInputStream fis = new FileInputStream(UserDir+"\\src\\main\\java\\FrameworkAssignment\\WeatherReportingComparator\\Data.properties");
-		prop.load(fis);
-		String browserName = prop.getProperty("browser");
-		String URL = prop.getProperty("url");
-		String ChromeDriverPath = prop.getProperty("chromeDriverPath");
+	public WebDriver initializeDriver() {
+		
+		String browserName = FileandEnv.envAndFile().get("Browser");
+		String URL = FileandEnv.envAndFile().get("Url");
+		String ChromeDriverPath = FileandEnv.envAndFile().get("ChromePath");
 
-		if (browserName.equals("chrome")) {
-			System.setProperty("webdriver.chrome.driver",UserDir+ChromeDriverPath);
+		if (browserName.equalsIgnoreCase("chrome")) {
+			System.setProperty("webdriver.chrome.driver", ChromeDriverPath);
 			driver = new ChromeDriver();
 			driver.manage().window().maximize();
 			driver.get(URL);
@@ -45,11 +39,17 @@ public class Base extends ExtentReportListners {
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		return driver;
 	}
-	
+
 	@BeforeClass
-public void baseUrl() {
-		
+	public void baseUrl() {
+
 		RestAssured.baseURI = FileandEnv.envAndFile().get("ServerUrl");
+
 	}
 	
+	
+
+	
+
 }
+
