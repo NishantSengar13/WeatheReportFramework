@@ -9,11 +9,11 @@ import org.testng.annotations.Test;
 import com.relevantcodes.extentreports.LogStatus;
 
 import TestCases.Base;
-import WebPages.CurrentWeatherPage;
-import WebPages.HomePage;
-import WebPages.WeatherForecastPage;
 import apiRequests.GetRequest;
 import io.restassured.path.json.JsonPath;
+import pageFactory.CurrentWeatherPage;
+import pageFactory.HomePage;
+import pageFactory.WeatherForecastPage;
 import utils.FileandEnv;
 import utils.ValueComparision;
 

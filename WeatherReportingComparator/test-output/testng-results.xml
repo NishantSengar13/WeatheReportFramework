@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="17551" started-at="2021-07-09T13:32:00Z" finished-at="2021-07-09T13:32:18Z">
+  <suite name="Default suite" duration-ms="16863" started-at="2021-07-09T13:51:50Z" finished-at="2021-07-09T13:52:07Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="17551" started-at="2021-07-09T13:32:00Z" finished-at="2021-07-09T13:32:18Z">
+    <test name="Default test" duration-ms="16863" started-at="2021-07-09T13:51:50Z" finished-at="2021-07-09T13:52:07Z">
       <class name="TestCases.TestCase001">
-        <test-method status="PASS" signature="Before_Test()[pri:0, instance:TestCases.TestCase001@1ed4004b]" name="Before_Test" is-config="true" duration-ms="7136" started-at="2021-07-09T13:32:01Z" finished-at="2021-07-09T13:32:08Z">
+        <test-method status="PASS" signature="Before_Test()[pri:0, instance:TestCases.TestCase001@56ef9176]" name="Before_Test" is-config="true" duration-ms="6423" started-at="2021-07-09T13:51:50Z" finished-at="2021-07-09T13:51:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Before_Test -->
-        <test-method status="PASS" signature="baseUrl()[pri:0, instance:TestCases.TestCase001@1ed4004b]" name="baseUrl" is-config="true" duration-ms="554" started-at="2021-07-09T13:32:08Z" finished-at="2021-07-09T13:32:08Z">
+        <test-method status="PASS" signature="baseUrl()[pri:0, instance:TestCases.TestCase001@56ef9176]" name="baseUrl" is-config="true" duration-ms="644" started-at="2021-07-09T13:51:56Z" finished-at="2021-07-09T13:51:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- baseUrl -->
-        <test-method status="PASS" signature="GetWeatherDetails()[pri:0, instance:TestCases.TestCase001@1ed4004b]" name="GetWeatherDetails" duration-ms="8897" started-at="2021-07-09T13:32:08Z" finished-at="2021-07-09T13:32:17Z">
+        <test-method status="PASS" signature="GetWeatherDetails()[pri:0, instance:TestCases.TestCase001@56ef9176]" name="GetWeatherDetails" duration-ms="8789" started-at="2021-07-09T13:51:57Z" finished-at="2021-07-09T13:52:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GetWeatherDetails -->
-        <test-method status="PASS" signature="After_Test()[pri:0, instance:TestCases.TestCase001@1ed4004b]" name="After_Test" is-config="true" duration-ms="788" started-at="2021-07-09T13:32:17Z" finished-at="2021-07-09T13:32:18Z">
+        <test-method status="PASS" signature="After_Test()[pri:0, instance:TestCases.TestCase001@56ef9176]" name="After_Test" is-config="true" duration-ms="833" started-at="2021-07-09T13:52:06Z" finished-at="2021-07-09T13:52:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- After_Test -->

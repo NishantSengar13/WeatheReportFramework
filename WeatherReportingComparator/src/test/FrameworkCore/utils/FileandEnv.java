@@ -13,7 +13,7 @@ public class FileandEnv {
 
 	public static Map<String, String> envAndFile() {
 
-		String environment = System.getProperty("env");
+		String environment = "dev";//System.getProperty("env");
 
 		try {
 			if (environment.equalsIgnoreCase("dev")) {

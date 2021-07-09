@@ -1,4 +1,4 @@
-package WebPages;
+package pageFactory;
 
 import java.text.DecimalFormat;
 import java.text.ParseException;
