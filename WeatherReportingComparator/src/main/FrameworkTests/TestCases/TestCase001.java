@@ -63,8 +63,9 @@ public class TestCase001 extends Base {
 		ExtentTestManager.getTest().log(Status.INFO, "Visibility API : " + A_visibility + "       " + "Web : " + W_visibility);
 		Double A_windSpeed = jsonpath.getDouble("wind.speed");
 		ExtentTestManager.getTest().log(Status.INFO, "WindSpeed API : " + A_windSpeed + "       " + "Web : " + W_windSpeed);
-
-		String result = ValueComparision.CompareTemp(A_temp, W_temp, 0.0);
+		
+		//We can compare any of the above six weather conditions as below variance
+		String result = ValueComparision.CompareTemp(A_temp, W_temp, 2.0);
 		Assert.assertEquals(result, "Passed");
 
 		ExtentTestManager.getTest().log(Status.INFO, "Test Ended");
