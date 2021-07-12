@@ -1,25 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="16863" started-at="2021-07-09T13:51:50Z" finished-at="2021-07-09T13:52:07Z">
+  <suite name="Default suite" duration-ms="20255" started-at="2021-07-12T03:56:15Z" finished-at="2021-07-12T03:56:35Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="16863" started-at="2021-07-09T13:51:50Z" finished-at="2021-07-09T13:52:07Z">
+    <test name="Default test" duration-ms="20255" started-at="2021-07-12T03:56:15Z" finished-at="2021-07-12T03:56:35Z">
       <class name="TestCases.TestCase001">
-        <test-method status="PASS" signature="Before_Test()[pri:0, instance:TestCases.TestCase001@56ef9176]" name="Before_Test" is-config="true" duration-ms="6423" started-at="2021-07-09T13:51:50Z" finished-at="2021-07-09T13:51:56Z">
+        <test-method status="PASS" signature="Before_Test()[pri:0, instance:TestCases.TestCase001@56ac3a89]" name="Before_Test" is-config="true" duration-ms="8873" started-at="2021-07-12T03:56:15Z" finished-at="2021-07-12T03:56:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Before_Test -->
-        <test-method status="PASS" signature="baseUrl()[pri:0, instance:TestCases.TestCase001@56ef9176]" name="baseUrl" is-config="true" duration-ms="644" started-at="2021-07-09T13:51:56Z" finished-at="2021-07-09T13:51:57Z">
+        <test-method status="PASS" signature="baseUrl()[pri:0, instance:TestCases.TestCase001@56ac3a89]" name="baseUrl" is-config="true" duration-ms="629" started-at="2021-07-12T03:56:24Z" finished-at="2021-07-12T03:56:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- baseUrl -->
-        <test-method status="PASS" signature="GetWeatherDetails()[pri:0, instance:TestCases.TestCase001@56ef9176]" name="GetWeatherDetails" duration-ms="8789" started-at="2021-07-09T13:51:57Z" finished-at="2021-07-09T13:52:06Z">
+        <test-method status="FAIL" signature="GetWeatherDetails()[pri:0, instance:TestCases.TestCase001@56ac3a89]" name="GetWeatherDetails" duration-ms="9623" started-at="2021-07-12T03:56:25Z" finished-at="2021-07-12T03:56:34Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Passed] but found [Failed]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Passed] but found [Failed]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at TestCases.TestCase001.GetWeatherDetails(TestCase001.java:68)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GetWeatherDetails -->
-        <test-method status="PASS" signature="After_Test()[pri:0, instance:TestCases.TestCase001@56ef9176]" name="After_Test" is-config="true" duration-ms="833" started-at="2021-07-09T13:52:06Z" finished-at="2021-07-09T13:52:07Z">
+        <test-method status="PASS" signature="After_Test()[pri:0, instance:TestCases.TestCase001@56ac3a89]" name="After_Test" is-config="true" duration-ms="713" started-at="2021-07-12T03:56:35Z" finished-at="2021-07-12T03:56:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- After_Test -->

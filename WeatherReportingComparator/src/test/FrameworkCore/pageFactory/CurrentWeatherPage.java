@@ -1,10 +1,5 @@
 package pageFactory;
 
-import java.text.DecimalFormat;
-import java.text.ParseException;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;

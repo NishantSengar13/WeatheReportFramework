@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="utils.TestListners"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="TestCases.TestCase001">
+        <methods>
+          <include name="baseUrl"/>
+          <include name="GetWeatherDetails"/>
+          <include name="After_Test"/>
+          <include name="Before_Test"/>
+        </methods>
+      </class> <!-- TestCases.TestCase001 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

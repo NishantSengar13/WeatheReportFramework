@@ -1,7 +1,6 @@
 package TestCases;
 
 import java.util.concurrent.TimeUnit;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -9,13 +8,13 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Listeners;
 
 import io.restassured.RestAssured;
-import utils.ExtentReportListners;
 import utils.FileandEnv;
+import utils.TestListners;
 
-@Listeners(ExtentReportListners.class)
-public class Base extends ExtentReportListners {
+@Listeners(TestListners.class)
+public class Base {
 
-	public static WebDriver driver;
+	public WebDriver driver;
 
 	public WebDriver initializeDriver() {
 		

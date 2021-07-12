@@ -3,26 +3,28 @@ package apiVerifictions;
 import org.json.JSONArray;
 import org.json.JSONObject;
 import org.testng.Assert;
+import com.aventstack.extentreports.Status;
 
-import com.relevantcodes.extentreports.LogStatus;
+
 
 import io.restassured.response.Response;
-import utils.ExtentReportListners;
 
-public class APIVerification extends ExtentReportListners {
+import utils.ExtentTestManager;
+
+public class APIVerification {
 
 	public static void responseCodeValiddation(Response response, int statusCode) {
 
 		try {
 			Assert.assertEquals(statusCode, response.getStatusCode());
-			test.log(LogStatus.PASS,
+			ExtentTestManager.getTest().log(Status.PASS,
 					"Successfully validdated status code, status code is :: " + response.getStatusCode());
 		} catch (AssertionError e) {
-			test.log(LogStatus.FAIL, e.fillInStackTrace());
-			test.log(LogStatus.FAIL,
+			ExtentTestManager.getTest().log(Status.FAIL, e.fillInStackTrace());
+			ExtentTestManager.getTest().log(Status.FAIL,
 					"Expected status code is :: " + statusCode + " , insted of getting :: " + response.getStatusCode());
 		} catch (Exception e) {
-			test.log(LogStatus.FAIL, e.fillInStackTrace());
+			ExtentTestManager.getTest().log(Status.FAIL, e.fillInStackTrace());
 		}
 	}
 
@@ -31,11 +33,11 @@ public class APIVerification extends ExtentReportListners {
 			JSONArray array = new JSONArray(response.getBody().asString());
 			for(int i=0; i<array.length();i++) {
 				JSONObject obj = array.getJSONObject(i);
-				test.log(LogStatus.PASS, "Validetd values are  " + obj.get(key));
+				ExtentTestManager.getTest().log(Status.PASS, "Validetd values are  " + obj.get(key));
 				
 			}
 		} catch (Exception e) {
-			test.log(LogStatus.FAIL, e.fillInStackTrace());
+			ExtentTestManager.getTest().log(Status.FAIL, e.fillInStackTrace());
 		}
 	}
 	
@@ -44,12 +46,12 @@ public class APIVerification extends ExtentReportListners {
 		try {
 			JSONObject json = new JSONObject(response.getBody().asString());
 			if(json.has(key) && json.get(key)!= null) {
-				test.log(LogStatus.PASS, "Sucessfully validated value of " + key + " It is " + json.get(key));
+				ExtentTestManager.getTest().log(Status.PASS, "Sucessfully validated value of " + key + " It is " + json.get(key));
 			}else {
-				test.log(LogStatus.FAIL,"Key is not availble");
+				ExtentTestManager.getTest().log(Status.FAIL,"Key is not availble");
 			}
 		} catch (Exception e) {
-			test.log(LogStatus.FAIL, e.fillInStackTrace());
+			ExtentTestManager.getTest().log(Status.FAIL, e.fillInStackTrace());
 		}
 	}
 	
@@ -57,9 +59,9 @@ public class APIVerification extends ExtentReportListners {
 	public static void responseTimeValidation(Response response) {
 		try {
 			long time=response.time();
-			test.log(LogStatus.INFO, "Api response time is :: " + time);
+			ExtentTestManager.getTest().log(Status.INFO, "Api response time is :: " + time);
 		} catch (Exception e) {
-			test.log(LogStatus.FAIL, e.fillInStackTrace());
+			ExtentTestManager.getTest().log(Status.FAIL, e.fillInStackTrace());
 		}
 	}
 
